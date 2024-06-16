@@ -31,12 +31,14 @@ header span {
     align-items: center;
 }
 
-nav {
+nav ul {
+    margin: 0;
+    padding-left: 0;
     display: flex;
     justify-content: space-around;
 }
 
-nav li {
+nav ul li {
     width: 100%;
     text-align: center;
     background-color: black;

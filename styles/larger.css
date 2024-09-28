@@ -3,12 +3,19 @@
         align-items: center;
     }
 
+    #mode {
+        position: absolute;
+        top: 0.6rem;
+        right: 2.5rem;
+        font-size: 1.7rem;
+    }
+
     nav ul {
         display: flex;
         flex-direction: column;
     }
 
-    main {
+    .container {
         max-width: 360px;
     }
 
@@ -35,4 +42,31 @@
     .card2 {
         height: 180px;
     }
+
+    #menu {
+		display: block;
+	}
+
+    .navigation li {
+        display: none;
+    }
+
+    .open li {
+        display: block;
+    }
 }
+
+/* @media (min-width: 37.5em) {
+	#menu {
+		display: none;
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+} */

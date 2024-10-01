@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: var(--heading-font);
+    font-family: var(--paragraph-font);
 }
 
 .wrapper {
@@ -27,7 +27,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: var(--secondary-color);
+    font-family: var(--heading-font);
 }
 
 

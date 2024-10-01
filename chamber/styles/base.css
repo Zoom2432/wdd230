@@ -66,8 +66,8 @@ header .container {
 	background: none;
 	color: white;
  	position: absolute;
-	top: 16px;
-	right: 1px;
+	top: 6px;
+	right: -19px;
     display: none;
     /* z-index: 5; */
 }

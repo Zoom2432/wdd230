@@ -55,10 +55,6 @@ header .container {
     margin-right: 10px;
 }
 
-.naming span {
-    line-height: 100%;
-}
-
 .naming h1 {
     font-size: 16px;
     font-weight: 400;
@@ -70,8 +66,8 @@ header .container {
 	background: none;
 	color: white;
  	position: absolute;
-	top: 13px;
-	right: 4px;
+	top: 16px;
+	right: 1px;
     display: none;
     /* z-index: 5; */
 }

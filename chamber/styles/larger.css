@@ -9,8 +9,8 @@
 
 
     /* Header */
-    .naming span {
-        display: none;
+    .naming h1 {
+        width: 130px;
     }
     
     #menu {
@@ -31,7 +31,11 @@
 
     .socials {
         /* flex-basis: 50%; */
-        margin-right: 50px;
+        margin-right: 60px;
+    }
+
+    .socials a:not(:last-child) {
+        margin-right: 5px;
     }
 
 

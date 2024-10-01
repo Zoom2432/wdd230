@@ -22,6 +22,7 @@ modified.textContent = document.lastModified;
 const hamButton = document.querySelector('#menu');
 const navigation = document.querySelector('.navigation');
 const socials = document.querySelector('.socials');
+const h1 = document.querySelector('h1');
 
 hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('open');
@@ -31,5 +32,11 @@ hamButton.addEventListener('click', () => {
   	socials.style.display="none";
   }else{
   	socials.style.display="flex";
+  }
+
+  if (h1.style.display !== 'none'){
+  	h1.style.display="none";
+  }else{
+  	h1.style.display="flex";
   }
 });
